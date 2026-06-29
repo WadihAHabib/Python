@@ -17,5 +17,5 @@ jobs:
           python-version: '3.x'
 
       - name: Run the script
-        run: python ciphers/demo_cipher.py
+        run: python ciphers/wadih-demo-cipher.py
         
