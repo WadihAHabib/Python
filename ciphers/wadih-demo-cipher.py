@@ -26,7 +26,8 @@ def decode(encoded: list[int]) -> str:
 
 
 def main() -> None:
-    encoded = encode(input("-> ").strip().lower())
+    name = "github"
+    encoded = encode(name)
     print("Encoded: ", encoded)
     print("Decoded:", decode(encoded))
 
